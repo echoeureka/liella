@@ -12,5 +12,3 @@ export default defineConfig({
   },
   plugins: [resolve({ preferBuiltins: false }), typescript(), commonjs()]
 });
-
-// 你好
