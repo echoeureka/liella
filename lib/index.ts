@@ -8,5 +8,5 @@ const config = new Conf({
 });
 
 (async () => {
-  await prompts(questions);
+  const response = await prompts(questions);
 })();
